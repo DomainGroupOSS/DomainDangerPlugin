@@ -4,19 +4,14 @@ import Foundation
 
 public struct DomainPlugin {
     
-    public static func framework() {
-        let danger = Danger()
-        
+    public static func framework(_ danger: DangerDSL) {
         self.general(danger)
         SwiftLint.lint(inline: true)
 
         //Coverage.spmCoverage(minimumCoverage: 5)
     }
 
-    public static func app() {
-
-        let danger = Danger()
-
+    public static func app(_ danger: DangerDSL) {
         self.general(danger)
 
         let hasAppChanges = !danger.git.modifiedFiles.contains { $0.name.contains("Classes") }
