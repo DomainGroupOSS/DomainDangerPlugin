@@ -37,7 +37,7 @@ internal extension DomainPlugin {
     private static func general(_ danger: DangerDSL) {
         let hasChangelog = danger.git.modifiedFiles.contains("CHANGELOG.md")
 
-        let isTrivial = (danger.github.pullRequest.body + danger.github.pullRequest.title).contains("[WIP]")
+        let isTrivial = (danger.github.pullRequest.body ?? "" + danger.github.pullRequest.title).contains("[WIP]")
 
         if !hasChangelog && !isTrivial {
             warn("Please include a CHANGELOG entry. \nYou can find it at [CHANGELOG.md](CHANGELOG.md).")

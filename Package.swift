@@ -10,8 +10,7 @@ let package = Package(
         .library(
             name: "DomainDangerPlugin",
             targets: ["DomainDangerPlugin"]
-        ),
-        .library(name: "DangerDeps", type: .dynamic, targets: ["DangerDependencies"]), // dev
+        )
     ],
     dependencies: [
         .package(url: "https://github.com/danger/swift.git", from: "1.0.0"),
@@ -23,8 +22,8 @@ let package = Package(
         .target(name: "DangerDependencies", dependencies: ["Danger", "DangerSwiftCoverage"]), // dev
         .target(
             name: "DomainDangerPlugin",
-            dependencies: ["Danger", "ShellOut"]
-        ),
+            dependencies: ["Danger", "ShellOut", "DangerSwiftCoverage"]
+        )
     ]
 )
 

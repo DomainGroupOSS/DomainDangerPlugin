@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DomainDangerPlugin::DomainDangerPlugin"
-               BuildableName = "DomainDangerPlugin.framework"
-               BlueprintName = "DomainDangerPlugin"
+               BlueprintIdentifier = "DomainDangerPlugin::DangerDependencies"
+               BuildableName = "DangerDependencies.framework"
+               BlueprintName = "DangerDependencies"
                ReferencedContainer = "container:DomainDangerPlugin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DomainDangerPlugin::DangerDependencies"
-               BuildableName = "DangerDependencies.framework"
-               BlueprintName = "DangerDependencies"
+               BlueprintIdentifier = "DomainDangerPlugin::DomainDangerPlugin"
+               BuildableName = "DomainDangerPlugin.framework"
+               BlueprintName = "DomainDangerPlugin"
                ReferencedContainer = "container:DomainDangerPlugin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -59,9 +59,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DomainDangerPlugin::DomainDangerPlugin"
-            BuildableName = "DomainDangerPlugin.framework"
-            BlueprintName = "DomainDangerPlugin"
+            BlueprintIdentifier = "DomainDangerPlugin::DangerDependencies"
+            BuildableName = "DangerDependencies.framework"
+            BlueprintName = "DangerDependencies"
             ReferencedContainer = "container:DomainDangerPlugin.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
