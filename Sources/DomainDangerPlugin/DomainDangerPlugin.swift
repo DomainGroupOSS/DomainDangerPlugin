@@ -40,7 +40,7 @@ internal extension DomainPlugin {
         let isTrivial = (danger.github.pullRequest.body ?? "" + danger.github.pullRequest.title).contains("[WIP]")
 
         if !hasChangelog && !isTrivial {
-            warn("Please include a CHANGELOG entry. \nYou can find it at [CHANGELOG.md](CHANGELOG.md).")
+            warn("Please include a CHANGELOG entry.")
         }
 
         let bigPRThreshold = 500
