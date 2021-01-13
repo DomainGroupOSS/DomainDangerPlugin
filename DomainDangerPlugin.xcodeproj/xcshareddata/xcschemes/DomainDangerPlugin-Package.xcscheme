@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DomainDangerPlugin::DangerDependencies"
-               BuildableName = "DangerDependencies.framework"
-               BlueprintName = "DangerDependencies"
+               BlueprintIdentifier = "DomainDangerPlugin::DomainDangerPlugin"
+               BuildableName = "DomainDangerPlugin.framework"
+               BlueprintName = "DomainDangerPlugin"
                ReferencedContainer = "container:DomainDangerPlugin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -28,9 +28,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DomainDangerPlugin::DomainDangerPlugin"
-               BuildableName = "DomainDangerPlugin.framework"
-               BlueprintName = "DomainDangerPlugin"
+               BlueprintIdentifier = "DomainDangerPlugin::DangerDependencies"
+               BuildableName = "DangerDependencies.framework"
+               BlueprintName = "DangerDependencies"
                ReferencedContainer = "container:DomainDangerPlugin.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -43,8 +43,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </TestAction>
    <LaunchAction
       buildConfiguration = "Debug"
@@ -56,17 +54,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "DomainDangerPlugin::DangerDependencies"
-            BuildableName = "DangerDependencies.framework"
-            BlueprintName = "DangerDependencies"
-            ReferencedContainer = "container:DomainDangerPlugin.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
-      <AdditionalOptions>
-      </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
