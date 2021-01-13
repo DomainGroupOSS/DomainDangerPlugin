@@ -5,18 +5,17 @@
    objects = {
       "DangerSwiftCoverage::DangerSwiftCoverage" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_164";
+         buildConfigurationList = "OBJ_177";
          buildPhases = (
-            "OBJ_167",
-            "OBJ_178"
+            "OBJ_180",
+            "OBJ_191"
          );
          dependencies = (
-            "OBJ_185",
-            "OBJ_186",
-            "OBJ_187",
-            "OBJ_188",
-            "OBJ_189",
-            "OBJ_190"
+            "OBJ_197",
+            "OBJ_198",
+            "OBJ_199",
+            "OBJ_200",
+            "OBJ_201"
          );
          name = "DangerSwiftCoverage";
          productName = "DangerSwiftCoverage";
@@ -30,9 +29,9 @@
       };
       "DangerSwiftCoverage::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_192";
+         buildConfigurationList = "OBJ_203";
          buildPhases = (
-            "OBJ_195"
+            "OBJ_206"
          );
          dependencies = (
          );
@@ -42,19 +41,18 @@
       };
       "DomainDangerPlugin::DangerDependencies" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_136";
+         buildConfigurationList = "OBJ_152";
          buildPhases = (
-            "OBJ_139",
-            "OBJ_141"
+            "OBJ_155",
+            "OBJ_157"
          );
          dependencies = (
-            "OBJ_149",
-            "OBJ_151",
-            "OBJ_153",
-            "OBJ_154",
-            "OBJ_155",
-            "OBJ_156",
-            "OBJ_157"
+            "OBJ_164",
+            "OBJ_166",
+            "OBJ_167",
+            "OBJ_168",
+            "OBJ_169",
+            "OBJ_170"
          );
          name = "DangerDependencies";
          productName = "DangerDependencies";
@@ -68,19 +66,19 @@
       };
       "DomainDangerPlugin::DomainDangerPlugin" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_198";
+         buildConfigurationList = "OBJ_209";
          buildPhases = (
-            "OBJ_201",
-            "OBJ_204"
+            "OBJ_212",
+            "OBJ_215"
          );
          dependencies = (
-            "OBJ_212",
-            "OBJ_213",
-            "OBJ_214",
-            "OBJ_215",
-            "OBJ_216",
-            "OBJ_217",
-            "OBJ_218"
+            "OBJ_223",
+            "OBJ_224",
+            "OBJ_226",
+            "OBJ_227",
+            "OBJ_228",
+            "OBJ_229",
+            "OBJ_230"
          );
          name = "DomainDangerPlugin";
          productName = "DomainDangerPlugin";
@@ -94,9 +92,9 @@
       };
       "DomainDangerPlugin::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_220";
+         buildConfigurationList = "OBJ_232";
          buildPhases = (
-            "OBJ_223"
+            "OBJ_235"
          );
          dependencies = (
          );
@@ -106,10 +104,10 @@
       };
       "Logger::Logger" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_225";
+         buildConfigurationList = "OBJ_237";
          buildPhases = (
-            "OBJ_228",
-            "OBJ_230"
+            "OBJ_240",
+            "OBJ_242"
          );
          dependencies = (
          );
@@ -125,9 +123,9 @@
       };
       "Logger::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_232";
+         buildConfigurationList = "OBJ_244";
          buildPhases = (
-            "OBJ_235"
+            "OBJ_247"
          );
          dependencies = (
          );
@@ -143,13 +141,13 @@
          };
          buildConfigurationList = "OBJ_2";
          compatibilityVersion = "Xcode 3.2";
-         developmentRegion = "English";
+         developmentRegion = "en";
          hasScannedForEncodings = "0";
          knownRegions = (
             "en"
          );
          mainGroup = "OBJ_5";
-         productRefGroup = "OBJ_87";
+         productRefGroup = "OBJ_98";
          projectDirPath = ".";
          targets = (
             "danger-swift::Danger",
@@ -180,130 +178,15 @@
          path = "Sources/DomainDangerPlugin";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_100" = {
-         isa = "PBXFileReference";
-         path = "Gemfile";
-         sourceTree = "<group>";
-      };
-      "OBJ_101" = {
-         isa = "PBXFileReference";
-         path = "Gemfile.lock";
-         sourceTree = "<group>";
-      };
-      "OBJ_103" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_104",
-            "OBJ_105"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_104" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Danger_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Danger";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Danger";
-         };
-         name = "Debug";
-      };
-      "OBJ_105" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Danger_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Danger";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Danger";
-         };
-         name = "Release";
-      };
-      "OBJ_106" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_107",
-            "OBJ_108",
-            "OBJ_109",
-            "OBJ_110",
-            "OBJ_111",
-            "OBJ_112",
-            "OBJ_113",
-            "OBJ_114",
-            "OBJ_115",
-            "OBJ_116",
-            "OBJ_117",
-            "OBJ_118",
-            "OBJ_119",
-            "OBJ_120",
-            "OBJ_121"
-         );
-      };
-      "OBJ_107" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_33";
-      };
       "OBJ_108" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_34";
+         isa = "PBXFileReference";
+         path = "Images";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_109" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_35";
+         isa = "PBXFileReference";
+         path = "LICENSE";
+         sourceTree = "<group>";
       };
       "OBJ_11" = {
          isa = "PBXFileReference";
@@ -311,44 +194,143 @@
          sourceTree = "<group>";
       };
       "OBJ_110" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_36";
+         isa = "PBXFileReference";
+         path = "README.md";
+         sourceTree = "<group>";
       };
       "OBJ_111" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_37";
+         isa = "PBXFileReference";
+         path = "Gemfile";
+         sourceTree = "<group>";
       };
       "OBJ_112" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_39";
-      };
-      "OBJ_113" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_40";
+         isa = "PBXFileReference";
+         path = "Gemfile.lock";
+         sourceTree = "<group>";
       };
       "OBJ_114" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_41";
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_115",
+            "OBJ_116"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
       };
       "OBJ_115" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_42";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Danger_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Danger";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Danger";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
       };
       "OBJ_116" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_43";
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Danger_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Danger";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "Danger";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
       };
       "OBJ_117" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_46";
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_118",
+            "OBJ_119",
+            "OBJ_120",
+            "OBJ_121",
+            "OBJ_122",
+            "OBJ_123",
+            "OBJ_124",
+            "OBJ_125",
+            "OBJ_126",
+            "OBJ_127",
+            "OBJ_128",
+            "OBJ_129",
+            "OBJ_130",
+            "OBJ_131",
+            "OBJ_132",
+            "OBJ_133",
+            "OBJ_134",
+            "OBJ_135",
+            "OBJ_136",
+            "OBJ_137"
+         );
       };
       "OBJ_118" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_47";
+         fileRef = "OBJ_36";
       };
       "OBJ_119" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_48";
+         fileRef = "OBJ_37";
       };
       "OBJ_12" = {
          isa = "PBXFileReference";
@@ -357,44 +339,43 @@
       };
       "OBJ_120" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_49";
+         fileRef = "OBJ_38";
       };
       "OBJ_121" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_50";
+         fileRef = "OBJ_39";
       };
       "OBJ_122" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_123",
-            "OBJ_124",
-            "OBJ_125",
-            "OBJ_126"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_40";
       };
       "OBJ_123" = {
          isa = "PBXBuildFile";
-         fileRef = "Logger::Logger::Product";
+         fileRef = "OBJ_41";
       };
       "OBJ_124" = {
          isa = "PBXBuildFile";
-         fileRef = "OctoKit::OctoKit::Product";
+         fileRef = "OBJ_42";
       };
       "OBJ_125" = {
          isa = "PBXBuildFile";
-         fileRef = "RequestKit::RequestKit::Product";
+         fileRef = "OBJ_44";
       };
       "OBJ_126" = {
          isa = "PBXBuildFile";
-         fileRef = "danger-swift::DangerShellExecutor::Product";
+         fileRef = "OBJ_45";
       };
       "OBJ_127" = {
-         isa = "PBXTargetDependency";
-         target = "Logger::Logger";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_46";
+      };
+      "OBJ_128" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_47";
       };
       "OBJ_129" = {
-         isa = "PBXTargetDependency";
-         target = "OctoKit::OctoKit";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_48";
       };
       "OBJ_13" = {
          isa = "PBXGroup";
@@ -404,112 +385,60 @@
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
+      "OBJ_130" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_49";
+      };
       "OBJ_131" = {
-         isa = "PBXTargetDependency";
-         target = "RequestKit::RequestKit";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_50";
+      };
+      "OBJ_132" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_53";
       };
       "OBJ_133" = {
-         isa = "PBXTargetDependency";
-         target = "danger-swift::DangerShellExecutor";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_54";
+      };
+      "OBJ_134" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_55";
+      };
+      "OBJ_135" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_56";
       };
       "OBJ_136" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_137",
-            "OBJ_138"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_57";
       };
       "OBJ_137" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerDependencies_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "DangerDependencies";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DangerDependencies";
-         };
-         name = "Debug";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_58";
       };
       "OBJ_138" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerDependencies_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "DangerDependencies";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DangerDependencies";
-         };
-         name = "Release";
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_139",
+            "OBJ_140",
+            "OBJ_141",
+            "OBJ_142"
+         );
       };
       "OBJ_139" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_140"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "Logger::Logger::Product";
       };
       "OBJ_14" = {
          isa = "PBXGroup";
          children = (
             "OBJ_15",
             "OBJ_31",
-            "OBJ_57",
-            "OBJ_74",
-            "OBJ_80",
-            "OBJ_83"
+            "OBJ_34",
+            "OBJ_66",
+            "OBJ_88",
+            "OBJ_94"
          );
          name = "Dependencies";
          path = "";
@@ -517,51 +446,31 @@
       };
       "OBJ_140" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_9";
-      };
-      "OBJ_141" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_142",
-            "OBJ_143",
-            "OBJ_144",
-            "OBJ_145",
-            "OBJ_146",
-            "OBJ_147",
-            "OBJ_148"
-         );
-      };
-      "OBJ_142" = {
-         isa = "PBXBuildFile";
-         fileRef = "DangerSwiftCoverage::DangerSwiftCoverage::Product";
-      };
-      "OBJ_143" = {
-         isa = "PBXBuildFile";
-         fileRef = "ShellOut::ShellOut::Product";
-      };
-      "OBJ_144" = {
-         isa = "PBXBuildFile";
-         fileRef = "danger-swift::Danger::Product";
-      };
-      "OBJ_145" = {
-         isa = "PBXBuildFile";
-         fileRef = "Logger::Logger::Product";
-      };
-      "OBJ_146" = {
-         isa = "PBXBuildFile";
          fileRef = "OctoKit::OctoKit::Product";
       };
-      "OBJ_147" = {
+      "OBJ_141" = {
          isa = "PBXBuildFile";
          fileRef = "RequestKit::RequestKit::Product";
       };
-      "OBJ_148" = {
+      "OBJ_142" = {
          isa = "PBXBuildFile";
          fileRef = "danger-swift::DangerShellExecutor::Product";
       };
+      "OBJ_143" = {
+         isa = "PBXTargetDependency";
+         target = "Logger::Logger";
+      };
+      "OBJ_145" = {
+         isa = "PBXTargetDependency";
+         target = "OctoKit::OctoKit";
+      };
+      "OBJ_147" = {
+         isa = "PBXTargetDependency";
+         target = "RequestKit::RequestKit";
+      };
       "OBJ_149" = {
          isa = "PBXTargetDependency";
-         target = "DangerSwiftCoverage::DangerSwiftCoverage";
+         target = "danger-swift::DangerShellExecutor";
       };
       "OBJ_15" = {
          isa = "PBXGroup";
@@ -569,44 +478,20 @@
             "OBJ_16",
             "OBJ_30"
          );
-         name = "DangerSwiftCoverage 0.3.0";
+         name = "DangerSwiftCoverage 1.2.1";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_151" = {
-         isa = "PBXTargetDependency";
-         target = "ShellOut::ShellOut";
-      };
-      "OBJ_153" = {
-         isa = "PBXTargetDependency";
-         target = "danger-swift::Danger";
-      };
-      "OBJ_154" = {
-         isa = "PBXTargetDependency";
-         target = "Logger::Logger";
-      };
-      "OBJ_155" = {
-         isa = "PBXTargetDependency";
-         target = "OctoKit::OctoKit";
-      };
-      "OBJ_156" = {
-         isa = "PBXTargetDependency";
-         target = "RequestKit::RequestKit";
-      };
-      "OBJ_157" = {
-         isa = "PBXTargetDependency";
-         target = "danger-swift::DangerShellExecutor";
-      };
-      "OBJ_158" = {
+      "OBJ_152" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_159",
-            "OBJ_160"
+            "OBJ_153",
+            "OBJ_154"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_159" = {
+      "OBJ_153" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -617,7 +502,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerShellExecutor_Info.plist";
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerDependencies_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -631,7 +516,7 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "DangerShellExecutor";
+            PRODUCT_BUNDLE_IDENTIFIER = "DangerDependencies";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
@@ -639,180 +524,124 @@
                "$(inherited)"
             );
             SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DangerShellExecutor";
+            TARGET_NAME = "DangerDependencies";
          };
          name = "Debug";
+      };
+      "OBJ_154" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerDependencies_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DangerDependencies";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "DangerDependencies";
+         };
+         name = "Release";
+      };
+      "OBJ_155" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_156"
+         );
+      };
+      "OBJ_156" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_9";
+      };
+      "OBJ_157" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_158",
+            "OBJ_159",
+            "OBJ_160",
+            "OBJ_161",
+            "OBJ_162",
+            "OBJ_163"
+         );
+      };
+      "OBJ_158" = {
+         isa = "PBXBuildFile";
+         fileRef = "DangerSwiftCoverage::DangerSwiftCoverage::Product";
+      };
+      "OBJ_159" = {
+         isa = "PBXBuildFile";
+         fileRef = "danger-swift::Danger::Product";
       };
       "OBJ_16" = {
          isa = "PBXGroup";
          children = (
             "OBJ_17",
             "OBJ_18",
-            "OBJ_22",
-            "OBJ_24",
-            "OBJ_25"
+            "OBJ_23",
+            "OBJ_25",
+            "OBJ_26"
          );
          name = "DangerSwiftCoverage";
          path = ".build/checkouts/danger-swift-coverage/Sources/DangerSwiftCoverage";
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_160" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerShellExecutor_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "DangerShellExecutor";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DangerShellExecutor";
-         };
-         name = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "Logger::Logger::Product";
       };
       "OBJ_161" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_162"
-         );
+         isa = "PBXBuildFile";
+         fileRef = "OctoKit::OctoKit::Product";
       };
       "OBJ_162" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_53";
+         fileRef = "RequestKit::RequestKit::Product";
       };
       "OBJ_163" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
+         isa = "PBXBuildFile";
+         fileRef = "danger-swift::DangerShellExecutor::Product";
       };
       "OBJ_164" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_165",
-            "OBJ_166"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_165" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerSwiftCoverage_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "DangerSwiftCoverage";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DangerSwiftCoverage";
-         };
-         name = "Debug";
+         isa = "PBXTargetDependency";
+         target = "DangerSwiftCoverage::DangerSwiftCoverage";
       };
       "OBJ_166" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerSwiftCoverage_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "DangerSwiftCoverage";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DangerSwiftCoverage";
-         };
-         name = "Release";
+         isa = "PBXTargetDependency";
+         target = "danger-swift::Danger";
       };
       "OBJ_167" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_168",
-            "OBJ_169",
-            "OBJ_170",
-            "OBJ_171",
-            "OBJ_172",
-            "OBJ_173",
-            "OBJ_174",
-            "OBJ_175",
-            "OBJ_176",
-            "OBJ_177"
-         );
+         isa = "PBXTargetDependency";
+         target = "Logger::Logger";
       };
       "OBJ_168" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_17";
+         isa = "PBXTargetDependency";
+         target = "OctoKit::OctoKit";
       };
       "OBJ_169" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_19";
+         isa = "PBXTargetDependency";
+         target = "RequestKit::RequestKit";
       };
       "OBJ_17" = {
          isa = "PBXFileReference";
@@ -820,177 +649,19 @@
          sourceTree = "<group>";
       };
       "OBJ_170" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_20";
-      };
-      "OBJ_171" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_21";
-      };
-      "OBJ_172" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_23";
-      };
-      "OBJ_173" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_24";
-      };
-      "OBJ_174" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_26";
-      };
-      "OBJ_175" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_27";
-      };
-      "OBJ_176" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_28";
-      };
-      "OBJ_177" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_29";
-      };
-      "OBJ_178" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_179",
-            "OBJ_180",
-            "OBJ_181",
-            "OBJ_182",
-            "OBJ_183",
-            "OBJ_184"
-         );
-      };
-      "OBJ_179" = {
-         isa = "PBXBuildFile";
-         fileRef = "ShellOut::ShellOut::Product";
-      };
-      "OBJ_18" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_19",
-            "OBJ_20",
-            "OBJ_21"
-         );
-         name = "Models";
-         path = "Models";
-         sourceTree = "<group>";
-      };
-      "OBJ_180" = {
-         isa = "PBXBuildFile";
-         fileRef = "danger-swift::Danger::Product";
-      };
-      "OBJ_181" = {
-         isa = "PBXBuildFile";
-         fileRef = "Logger::Logger::Product";
-      };
-      "OBJ_182" = {
-         isa = "PBXBuildFile";
-         fileRef = "OctoKit::OctoKit::Product";
-      };
-      "OBJ_183" = {
-         isa = "PBXBuildFile";
-         fileRef = "RequestKit::RequestKit::Product";
-      };
-      "OBJ_184" = {
-         isa = "PBXBuildFile";
-         fileRef = "danger-swift::DangerShellExecutor::Product";
-      };
-      "OBJ_185" = {
-         isa = "PBXTargetDependency";
-         target = "ShellOut::ShellOut";
-      };
-      "OBJ_186" = {
-         isa = "PBXTargetDependency";
-         target = "danger-swift::Danger";
-      };
-      "OBJ_187" = {
-         isa = "PBXTargetDependency";
-         target = "Logger::Logger";
-      };
-      "OBJ_188" = {
-         isa = "PBXTargetDependency";
-         target = "OctoKit::OctoKit";
-      };
-      "OBJ_189" = {
-         isa = "PBXTargetDependency";
-         target = "RequestKit::RequestKit";
-      };
-      "OBJ_19" = {
-         isa = "PBXFileReference";
-         path = "Report.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_190" = {
          isa = "PBXTargetDependency";
          target = "danger-swift::DangerShellExecutor";
       };
-      "OBJ_192" = {
+      "OBJ_171" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_193",
-            "OBJ_194"
+            "OBJ_172",
+            "OBJ_173"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_193" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_194" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_195" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_196"
-         );
-      };
-      "OBJ_196" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_30";
-      };
-      "OBJ_198" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_199",
-            "OBJ_200"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_199" = {
+      "OBJ_172" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -1001,11 +672,13 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DomainDangerPlugin_Info.plist";
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerShellExecutor_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
             );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_CFLAGS = (
                "$(inherited)"
             );
@@ -1015,17 +688,280 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "DomainDangerPlugin";
+            PRODUCT_BUNDLE_IDENTIFIER = "DangerShellExecutor";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "DomainDangerPlugin";
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "DangerShellExecutor";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
          };
          name = "Debug";
+      };
+      "OBJ_173" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerShellExecutor_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DangerShellExecutor";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "DangerShellExecutor";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_174" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_175"
+         );
+      };
+      "OBJ_175" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_62";
+      };
+      "OBJ_176" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_177" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_178",
+            "OBJ_179"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_178" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerSwiftCoverage_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DangerSwiftCoverage";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "DangerSwiftCoverage";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_179" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DangerSwiftCoverage_Info.plist";
+            IPHONEOS_DEPLOYMENT_TARGET = "9.0";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            MACOSX_DEPLOYMENT_TARGET = "10.10";
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DangerSwiftCoverage";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "5.0";
+            TARGET_NAME = "DangerSwiftCoverage";
+            TVOS_DEPLOYMENT_TARGET = "9.0";
+            WATCHOS_DEPLOYMENT_TARGET = "2.0";
+         };
+         name = "Release";
+      };
+      "OBJ_18" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_19",
+            "OBJ_20",
+            "OBJ_21",
+            "OBJ_22"
+         );
+         name = "Models";
+         path = "Models";
+         sourceTree = "<group>";
+      };
+      "OBJ_180" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_181",
+            "OBJ_182",
+            "OBJ_183",
+            "OBJ_184",
+            "OBJ_185",
+            "OBJ_186",
+            "OBJ_187",
+            "OBJ_188",
+            "OBJ_189",
+            "OBJ_190"
+         );
+      };
+      "OBJ_181" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_17";
+      };
+      "OBJ_182" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_19";
+      };
+      "OBJ_183" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_20";
+      };
+      "OBJ_184" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_21";
+      };
+      "OBJ_185" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_22";
+      };
+      "OBJ_186" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_24";
+      };
+      "OBJ_187" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_25";
+      };
+      "OBJ_188" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_27";
+      };
+      "OBJ_189" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_28";
+      };
+      "OBJ_19" = {
+         isa = "PBXFileReference";
+         path = "ExcludedTarget.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_190" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_29";
+      };
+      "OBJ_191" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+            "OBJ_192",
+            "OBJ_193",
+            "OBJ_194",
+            "OBJ_195",
+            "OBJ_196"
+         );
+      };
+      "OBJ_192" = {
+         isa = "PBXBuildFile";
+         fileRef = "danger-swift::Danger::Product";
+      };
+      "OBJ_193" = {
+         isa = "PBXBuildFile";
+         fileRef = "Logger::Logger::Product";
+      };
+      "OBJ_194" = {
+         isa = "PBXBuildFile";
+         fileRef = "OctoKit::OctoKit::Product";
+      };
+      "OBJ_195" = {
+         isa = "PBXBuildFile";
+         fileRef = "RequestKit::RequestKit::Product";
+      };
+      "OBJ_196" = {
+         isa = "PBXBuildFile";
+         fileRef = "danger-swift::DangerShellExecutor::Product";
+      };
+      "OBJ_197" = {
+         isa = "PBXTargetDependency";
+         target = "danger-swift::Danger";
+      };
+      "OBJ_198" = {
+         isa = "PBXTargetDependency";
+         target = "Logger::Logger";
+      };
+      "OBJ_199" = {
+         isa = "PBXTargetDependency";
+         target = "OctoKit::OctoKit";
       };
       "OBJ_2" = {
          isa = "XCConfigurationList";
@@ -1038,10 +974,124 @@
       };
       "OBJ_20" = {
          isa = "PBXFileReference";
-         path = "SPMCoverage.swift";
+         path = "Report.swift";
          sourceTree = "<group>";
       };
       "OBJ_200" = {
+         isa = "PBXTargetDependency";
+         target = "RequestKit::RequestKit";
+      };
+      "OBJ_201" = {
+         isa = "PBXTargetDependency";
+         target = "danger-swift::DangerShellExecutor";
+      };
+      "OBJ_203" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_204",
+            "OBJ_205"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_204" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
+      "OBJ_205" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_206" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_207"
+         );
+      };
+      "OBJ_207" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_30";
+      };
+      "OBJ_209" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_210",
+            "OBJ_211"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_21" = {
+         isa = "PBXFileReference";
+         path = "SPMCoverage.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_210" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/DomainDangerPlugin_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "DomainDangerPlugin";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "DomainDangerPlugin";
+         };
+         name = "Debug";
+      };
+      "OBJ_211" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
             ENABLE_TESTABILITY = "YES";
@@ -1078,260 +1128,102 @@
          };
          name = "Release";
       };
-      "OBJ_201" = {
+      "OBJ_212" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_202",
-            "OBJ_203"
+            "OBJ_213",
+            "OBJ_214"
          );
       };
-      "OBJ_202" = {
+      "OBJ_213" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_11";
       };
-      "OBJ_203" = {
+      "OBJ_214" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_12";
       };
-      "OBJ_204" = {
+      "OBJ_215" = {
          isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_205",
-            "OBJ_206",
-            "OBJ_207",
-            "OBJ_208",
-            "OBJ_209",
-            "OBJ_210",
-            "OBJ_211"
+            "OBJ_216",
+            "OBJ_217",
+            "OBJ_218",
+            "OBJ_219",
+            "OBJ_220",
+            "OBJ_221",
+            "OBJ_222"
          );
       };
-      "OBJ_205" = {
+      "OBJ_216" = {
          isa = "PBXBuildFile";
          fileRef = "DangerSwiftCoverage::DangerSwiftCoverage::Product";
       };
-      "OBJ_206" = {
+      "OBJ_217" = {
          isa = "PBXBuildFile";
          fileRef = "ShellOut::ShellOut::Product";
       };
-      "OBJ_207" = {
+      "OBJ_218" = {
          isa = "PBXBuildFile";
          fileRef = "danger-swift::Danger::Product";
       };
-      "OBJ_208" = {
+      "OBJ_219" = {
          isa = "PBXBuildFile";
          fileRef = "Logger::Logger::Product";
       };
-      "OBJ_209" = {
-         isa = "PBXBuildFile";
-         fileRef = "OctoKit::OctoKit::Product";
-      };
-      "OBJ_21" = {
+      "OBJ_22" = {
          isa = "PBXFileReference";
          path = "XcodeBuildCoverage.swift";
          sourceTree = "<group>";
       };
-      "OBJ_210" = {
+      "OBJ_220" = {
+         isa = "PBXBuildFile";
+         fileRef = "OctoKit::OctoKit::Product";
+      };
+      "OBJ_221" = {
          isa = "PBXBuildFile";
          fileRef = "RequestKit::RequestKit::Product";
       };
-      "OBJ_211" = {
+      "OBJ_222" = {
          isa = "PBXBuildFile";
          fileRef = "danger-swift::DangerShellExecutor::Product";
       };
-      "OBJ_212" = {
+      "OBJ_223" = {
          isa = "PBXTargetDependency";
          target = "DangerSwiftCoverage::DangerSwiftCoverage";
       };
-      "OBJ_213" = {
+      "OBJ_224" = {
          isa = "PBXTargetDependency";
          target = "ShellOut::ShellOut";
       };
-      "OBJ_214" = {
+      "OBJ_226" = {
          isa = "PBXTargetDependency";
          target = "danger-swift::Danger";
       };
-      "OBJ_215" = {
+      "OBJ_227" = {
          isa = "PBXTargetDependency";
          target = "Logger::Logger";
       };
-      "OBJ_216" = {
+      "OBJ_228" = {
          isa = "PBXTargetDependency";
          target = "OctoKit::OctoKit";
       };
-      "OBJ_217" = {
+      "OBJ_229" = {
          isa = "PBXTargetDependency";
          target = "RequestKit::RequestKit";
       };
-      "OBJ_218" = {
-         isa = "PBXTargetDependency";
-         target = "danger-swift::DangerShellExecutor";
-      };
-      "OBJ_22" = {
+      "OBJ_23" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_23"
+            "OBJ_24"
          );
          name = "SPM";
          path = "SPM";
          sourceTree = "<group>";
       };
-      "OBJ_220" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_221",
-            "OBJ_222"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_221" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_222" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_223" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_224"
-         );
-      };
-      "OBJ_224" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_6";
-      };
-      "OBJ_225" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_226",
-            "OBJ_227"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_226" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Logger_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Logger";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Logger";
-         };
-         name = "Debug";
-      };
-      "OBJ_227" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Logger_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "Logger";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "Logger";
-         };
-         name = "Release";
-      };
-      "OBJ_228" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_229"
-         );
-      };
-      "OBJ_229" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_85";
-      };
-      "OBJ_23" = {
-         isa = "PBXFileReference";
-         path = "SPMCoverageParser.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_230" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
+         isa = "PBXTargetDependency";
+         target = "danger-swift::DangerShellExecutor";
       };
       "OBJ_232" = {
          isa = "XCConfigurationList";
@@ -1351,10 +1243,10 @@
                "4.2",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
             );
             SWIFT_VERSION = "4.2";
          };
@@ -1369,10 +1261,10 @@
                "4.2",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
             );
             SWIFT_VERSION = "4.2";
          };
@@ -1386,7 +1278,7 @@
       };
       "OBJ_236" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_86";
+         fileRef = "OBJ_6";
       };
       "OBJ_237" = {
          isa = "XCConfigurationList";
@@ -1408,7 +1300,7 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/OctoKit_Info.plist";
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Logger_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
@@ -1422,15 +1314,15 @@
             OTHER_SWIFT_FLAGS = (
                "$(inherited)"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "OctoKit";
+            PRODUCT_BUNDLE_IDENTIFIER = "Logger";
             PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
             PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
             SKIP_INSTALL = "YES";
             SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
                "$(inherited)"
             );
-            SWIFT_VERSION = "4.0";
-            TARGET_NAME = "OctoKit";
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Logger";
          };
          name = "Debug";
       };
@@ -1445,6 +1337,169 @@
             HEADER_SEARCH_PATHS = (
                "$(inherited)"
             );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/Logger_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "Logger";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "Logger";
+         };
+         name = "Release";
+      };
+      "OBJ_24" = {
+         isa = "PBXFileReference";
+         path = "SPMCoverageParser.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_240" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_241"
+         );
+      };
+      "OBJ_241" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_96";
+      };
+      "OBJ_242" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_244" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_245",
+            "OBJ_246"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_245" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_246" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
+      };
+      "OBJ_247" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_248"
+         );
+      };
+      "OBJ_248" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_97";
+      };
+      "OBJ_249" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_250",
+            "OBJ_251"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_25" = {
+         isa = "PBXFileReference";
+         path = "ShellOutExecutor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_250" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/OctoKit_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "OctoKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.0";
+            TARGET_NAME = "OctoKit";
+         };
+         name = "Debug";
+      };
+      "OBJ_251" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
             INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/OctoKit_Info.plist";
             LD_RUNPATH_SEARCH_PATHS = (
                "$(inherited)",
@@ -1471,70 +1526,61 @@
          };
          name = "Release";
       };
-      "OBJ_24" = {
-         isa = "PBXFileReference";
-         path = "ShellOutExecutor.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_240" = {
+      "OBJ_252" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_241",
-            "OBJ_242",
-            "OBJ_243",
-            "OBJ_244",
-            "OBJ_245",
-            "OBJ_246",
-            "OBJ_247",
-            "OBJ_248",
-            "OBJ_249",
-            "OBJ_250",
-            "OBJ_251",
-            "OBJ_252",
             "OBJ_253",
-            "OBJ_254"
+            "OBJ_254",
+            "OBJ_255",
+            "OBJ_256",
+            "OBJ_257",
+            "OBJ_258",
+            "OBJ_259",
+            "OBJ_260",
+            "OBJ_261",
+            "OBJ_262",
+            "OBJ_263",
+            "OBJ_264",
+            "OBJ_265",
+            "OBJ_266",
+            "OBJ_267",
+            "OBJ_268",
+            "OBJ_269",
+            "OBJ_270",
+            "OBJ_271"
          );
       };
-      "OBJ_241" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_60";
-      };
-      "OBJ_242" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_61";
-      };
-      "OBJ_243" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_62";
-      };
-      "OBJ_244" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_63";
-      };
-      "OBJ_245" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_64";
-      };
-      "OBJ_246" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_65";
-      };
-      "OBJ_247" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_66";
-      };
-      "OBJ_248" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_67";
-      };
-      "OBJ_249" = {
+      "OBJ_253" = {
          isa = "PBXBuildFile";
          fileRef = "OBJ_68";
       };
-      "OBJ_25" = {
+      "OBJ_254" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_69";
+      };
+      "OBJ_255" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_70";
+      };
+      "OBJ_256" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_71";
+      };
+      "OBJ_257" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_72";
+      };
+      "OBJ_258" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_73";
+      };
+      "OBJ_259" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_74";
+      };
+      "OBJ_26" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_26",
             "OBJ_27",
             "OBJ_28",
             "OBJ_29"
@@ -1543,439 +1589,272 @@
          path = "XcodeBuild";
          sourceTree = "<group>";
       };
-      "OBJ_250" = {
+      "OBJ_260" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_69";
+         fileRef = "OBJ_75";
       };
-      "OBJ_251" = {
+      "OBJ_261" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_70";
+         fileRef = "OBJ_76";
       };
-      "OBJ_252" = {
+      "OBJ_262" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_71";
+         fileRef = "OBJ_77";
       };
-      "OBJ_253" = {
+      "OBJ_263" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_72";
+         fileRef = "OBJ_78";
       };
-      "OBJ_254" = {
+      "OBJ_264" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_73";
+         fileRef = "OBJ_79";
       };
-      "OBJ_255" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-            "OBJ_256"
-         );
-      };
-      "OBJ_256" = {
+      "OBJ_265" = {
          isa = "PBXBuildFile";
-         fileRef = "RequestKit::RequestKit::Product";
+         fileRef = "OBJ_80";
       };
-      "OBJ_257" = {
-         isa = "PBXTargetDependency";
-         target = "RequestKit::RequestKit";
+      "OBJ_266" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_81";
       };
-      "OBJ_259" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_260",
-            "OBJ_261"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+      "OBJ_267" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_82";
       };
-      "OBJ_26" = {
+      "OBJ_268" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_83";
+      };
+      "OBJ_269" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_84";
+      };
+      "OBJ_27" = {
          isa = "PBXFileReference";
          path = "XcCovJSONParser.swift";
          sourceTree = "<group>";
       };
-      "OBJ_260" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Debug";
+      "OBJ_270" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_85";
       };
-      "OBJ_261" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.0";
-         };
-         name = "Release";
+      "OBJ_271" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_86";
       };
-      "OBJ_262" = {
-         isa = "PBXSourcesBuildPhase";
+      "OBJ_272" = {
+         isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_263"
+            "OBJ_273"
          );
       };
-      "OBJ_263" = {
+      "OBJ_273" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_58";
+         fileRef = "RequestKit::RequestKit::Product";
       };
-      "OBJ_264" = {
+      "OBJ_274" = {
+         isa = "PBXTargetDependency";
+         target = "RequestKit::RequestKit";
+      };
+      "OBJ_276" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_265",
-            "OBJ_266"
+            "OBJ_277",
+            "OBJ_278"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
       };
-      "OBJ_265" = {
+      "OBJ_277" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/RequestKit_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.0.0"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "RequestKit";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "RequestKit";
+            SWIFT_VERSION = "4.0";
          };
          name = "Debug";
       };
-      "OBJ_266" = {
+      "OBJ_278" = {
          isa = "XCBuildConfiguration";
          buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/RequestKit_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
+            LD = "/usr/bin/true";
             OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
+               "-swift-version",
+               "4",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.0.0"
             );
-            PRODUCT_BUNDLE_IDENTIFIER = "RequestKit";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "RequestKit";
+            SWIFT_VERSION = "4.0";
          };
          name = "Release";
       };
-      "OBJ_267" = {
+      "OBJ_279" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_268",
-            "OBJ_269",
-            "OBJ_270"
+            "OBJ_280"
          );
       };
-      "OBJ_268" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_76";
-      };
-      "OBJ_269" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_77";
-      };
-      "OBJ_27" = {
+      "OBJ_28" = {
          isa = "PBXFileReference";
          path = "XcodeBuildCoverageParser.swift";
          sourceTree = "<group>";
       };
-      "OBJ_270" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_78";
-      };
-      "OBJ_271" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_273" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_274",
-            "OBJ_275"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_274" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_275" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
-      };
-      "OBJ_276" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_277"
-         );
-      };
-      "OBJ_277" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_79";
-      };
-      "OBJ_278" = {
-         isa = "XCConfigurationList";
-         buildConfigurations = (
-            "OBJ_279",
-            "OBJ_280"
-         );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
-      };
-      "OBJ_279" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/ShellOut_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "ShellOut";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "ShellOut";
-         };
-         name = "Debug";
-      };
-      "OBJ_28" = {
-         isa = "PBXFileReference";
-         path = "XcodeCoverageFileFinder.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_280" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            ENABLE_TESTABILITY = "YES";
-            FRAMEWORK_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
-            );
-            HEADER_SEARCH_PATHS = (
-               "$(inherited)"
-            );
-            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/ShellOut_Info.plist";
-            LD_RUNPATH_SEARCH_PATHS = (
-               "$(inherited)",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
-            );
-            OTHER_CFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_LDFLAGS = (
-               "$(inherited)"
-            );
-            OTHER_SWIFT_FLAGS = (
-               "$(inherited)"
-            );
-            PRODUCT_BUNDLE_IDENTIFIER = "ShellOut";
-            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
-            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-            SKIP_INSTALL = "YES";
-            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
-               "$(inherited)"
-            );
-            SWIFT_VERSION = "4.2";
-            TARGET_NAME = "ShellOut";
-         };
-         name = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_87";
       };
       "OBJ_281" = {
-         isa = "PBXSourcesBuildPhase";
-         files = (
-            "OBJ_282"
-         );
-      };
-      "OBJ_282" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_82";
-      };
-      "OBJ_283" = {
-         isa = "PBXFrameworksBuildPhase";
-         files = (
-         );
-      };
-      "OBJ_285" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
+            "OBJ_282",
+            "OBJ_283"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_282" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/RequestKit_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "RequestKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "RequestKit";
+         };
+         name = "Debug";
+      };
+      "OBJ_283" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/RequestKit_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "RequestKit";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "RequestKit";
+         };
+         name = "Release";
+      };
+      "OBJ_284" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_285",
             "OBJ_286",
             "OBJ_287"
          );
-         defaultConfigurationIsVisible = "0";
-         defaultConfigurationName = "Release";
+      };
+      "OBJ_285" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_90";
       };
       "OBJ_286" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_91";
       };
       "OBJ_287" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Release";
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_92";
       };
       "OBJ_288" = {
-         isa = "PBXSourcesBuildPhase";
+         isa = "PBXFrameworksBuildPhase";
          files = (
-            "OBJ_289"
          );
-      };
-      "OBJ_289" = {
-         isa = "PBXBuildFile";
-         fileRef = "OBJ_81";
       };
       "OBJ_29" = {
          isa = "PBXFileReference";
          path = "XcresultBundleFinder.swift";
          sourceTree = "<group>";
       };
-      "OBJ_291" = {
+      "OBJ_290" = {
          isa = "XCConfigurationList";
          buildConfigurations = (
-            "OBJ_292",
-            "OBJ_293"
+            "OBJ_291",
+            "OBJ_292"
          );
          defaultConfigurationIsVisible = "0";
          defaultConfigurationName = "Release";
+      };
+      "OBJ_291" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
       };
       "OBJ_292" = {
          isa = "XCBuildConfiguration";
@@ -1986,42 +1865,117 @@
                "4.2",
                "-I",
                "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
                "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
-            );
-            SWIFT_VERSION = "4.2";
-         };
-         name = "Debug";
-      };
-      "OBJ_293" = {
-         isa = "XCBuildConfiguration";
-         buildSettings = {
-            LD = "/usr/bin/true";
-            OTHER_SWIFT_FLAGS = (
-               "-swift-version",
-               "4.2",
-               "-I",
-               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
-               "-target",
-               "x86_64-apple-macosx10.10",
-               "-sdk",
-               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk"
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
             );
             SWIFT_VERSION = "4.2";
          };
          name = "Release";
       };
-      "OBJ_294" = {
+      "OBJ_293" = {
          isa = "PBXSourcesBuildPhase";
          files = (
-            "OBJ_295"
+            "OBJ_294"
          );
       };
-      "OBJ_295" = {
+      "OBJ_294" = {
          isa = "PBXBuildFile";
-         fileRef = "OBJ_56";
+         fileRef = "OBJ_93";
+      };
+      "OBJ_295" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_296",
+            "OBJ_297"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_296" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/ShellOut_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "ShellOut";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "ShellOut";
+         };
+         name = "Debug";
+      };
+      "OBJ_297" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            ENABLE_TESTABILITY = "YES";
+            FRAMEWORK_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(PLATFORM_DIR)/Developer/Library/Frameworks"
+            );
+            HEADER_SEARCH_PATHS = (
+               "$(inherited)"
+            );
+            INFOPLIST_FILE = "DomainDangerPlugin.xcodeproj/ShellOut_Info.plist";
+            LD_RUNPATH_SEARCH_PATHS = (
+               "$(inherited)",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx"
+            );
+            OTHER_CFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_LDFLAGS = (
+               "$(inherited)"
+            );
+            OTHER_SWIFT_FLAGS = (
+               "$(inherited)"
+            );
+            PRODUCT_BUNDLE_IDENTIFIER = "ShellOut";
+            PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+            PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+            SKIP_INSTALL = "YES";
+            SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+               "$(inherited)"
+            );
+            SWIFT_VERSION = "4.2";
+            TARGET_NAME = "ShellOut";
+         };
+         name = "Release";
+      };
+      "OBJ_298" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_299"
+         );
+      };
+      "OBJ_299" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_33";
       };
       "OBJ_3" = {
          isa = "XCBuildConfiguration";
@@ -2041,6 +1995,7 @@
             MACOSX_DEPLOYMENT_TARGET = "10.10";
             ONLY_ACTIVE_ARCH = "YES";
             OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
                "-DXcode"
             );
             PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2071,78 +2026,200 @@
          path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/danger-swift-coverage/Package.swift";
          sourceTree = "<group>";
       };
+      "OBJ_300" = {
+         isa = "PBXFrameworksBuildPhase";
+         files = (
+         );
+      };
+      "OBJ_302" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_303",
+            "OBJ_304"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_303" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Debug";
+      };
+      "OBJ_304" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "4.2",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "4.2.0"
+            );
+            SWIFT_VERSION = "4.2";
+         };
+         name = "Release";
+      };
+      "OBJ_305" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_306"
+         );
+      };
+      "OBJ_306" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_32";
+      };
+      "OBJ_308" = {
+         isa = "XCConfigurationList";
+         buildConfigurations = (
+            "OBJ_309",
+            "OBJ_310"
+         );
+         defaultConfigurationIsVisible = "0";
+         defaultConfigurationName = "Release";
+      };
+      "OBJ_309" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Debug";
+      };
       "OBJ_31" = {
          isa = "PBXGroup";
          children = (
             "OBJ_32",
-            "OBJ_51",
-            "OBJ_52",
-            "OBJ_54",
-            "OBJ_55",
-            "OBJ_56"
+            "OBJ_33"
          );
-         name = "danger-swift 1.5.6";
+         name = "ShellOut 2.3.0";
+         path = ".build/checkouts/ShellOut/Sources";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_310" = {
+         isa = "XCBuildConfiguration";
+         buildSettings = {
+            LD = "/usr/bin/true";
+            OTHER_SWIFT_FLAGS = (
+               "-swift-version",
+               "5",
+               "-I",
+               "$(TOOLCHAIN_DIR)/usr/lib/swift/pm/4_2",
+               "-sdk",
+               "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk",
+               "-package-description-version",
+               "5.1.0"
+            );
+            SWIFT_VERSION = "5.0";
+         };
+         name = "Release";
+      };
+      "OBJ_311" = {
+         isa = "PBXSourcesBuildPhase";
+         files = (
+            "OBJ_312"
+         );
+      };
+      "OBJ_312" = {
+         isa = "PBXBuildFile";
+         fileRef = "OBJ_65";
+      };
+      "OBJ_32" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/ShellOut/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_33" = {
+         isa = "PBXFileReference";
+         path = "ShellOut.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_34" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_35",
+            "OBJ_59",
+            "OBJ_60",
+            "OBJ_61",
+            "OBJ_63",
+            "OBJ_64",
+            "OBJ_65"
+         );
+         name = "danger-swift 3.7.1";
          path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_32" = {
+      "OBJ_35" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_33",
-            "OBJ_34",
-            "OBJ_35",
             "OBJ_36",
             "OBJ_37",
             "OBJ_38",
+            "OBJ_39",
+            "OBJ_40",
             "OBJ_41",
             "OBJ_42",
             "OBJ_43",
-            "OBJ_44",
+            "OBJ_46",
+            "OBJ_47",
+            "OBJ_48",
             "OBJ_49",
-            "OBJ_50"
+            "OBJ_50",
+            "OBJ_51",
+            "OBJ_57",
+            "OBJ_58"
          );
          name = "Danger";
          path = ".build/checkouts/swift/Sources/Danger";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_33" = {
-         isa = "PBXFileReference";
-         path = "BitBucketServerDSL.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_34" = {
-         isa = "PBXFileReference";
-         path = "Danger.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_35" = {
-         isa = "PBXFileReference";
-         path = "DangerDSL.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_36" = {
          isa = "PBXFileReference";
-         path = "DangerResults.swift";
+         path = "BitBucketCloud.swift";
          sourceTree = "<group>";
       };
       "OBJ_37" = {
          isa = "PBXFileReference";
-         path = "DangerUtils.swift";
+         path = "BitBucketMetadata.swift";
          sourceTree = "<group>";
       };
       "OBJ_38" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_39",
-            "OBJ_40"
-         );
-         name = "Extensions";
-         path = "Extensions";
+         isa = "PBXFileReference";
+         path = "BitBucketServerDSL.swift";
          sourceTree = "<group>";
       };
       "OBJ_39" = {
          isa = "PBXFileReference";
-         path = "DateFormatterExtensions.swift";
+         path = "Danger.swift";
          sourceTree = "<group>";
       };
       "OBJ_4" = {
@@ -2160,6 +2237,7 @@
             );
             MACOSX_DEPLOYMENT_TARGET = "10.10";
             OTHER_SWIFT_FLAGS = (
+               "$(inherited)",
                "-DXcode"
             );
             PRODUCT_NAME = "$(TARGET_NAME)";
@@ -2184,62 +2262,57 @@
       };
       "OBJ_40" = {
          isa = "PBXFileReference";
-         path = "NSRegularExpressionExtensions.swift";
+         path = "DangerDSL.swift";
          sourceTree = "<group>";
       };
       "OBJ_41" = {
          isa = "PBXFileReference";
-         path = "File.swift";
+         path = "DangerResults.swift";
          sourceTree = "<group>";
       };
       "OBJ_42" = {
          isa = "PBXFileReference";
-         path = "GitDSL.swift";
+         path = "DangerUtils.swift";
          sourceTree = "<group>";
       };
       "OBJ_43" = {
-         isa = "PBXFileReference";
-         path = "GitHubDSL.swift";
+         isa = "PBXGroup";
+         children = (
+            "OBJ_44",
+            "OBJ_45"
+         );
+         name = "Extensions";
+         path = "Extensions";
          sourceTree = "<group>";
       };
       "OBJ_44" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_45"
-         );
-         name = "Plugins";
-         path = "Plugins";
+         isa = "PBXFileReference";
+         path = "DateFormatterExtensions.swift";
          sourceTree = "<group>";
       };
       "OBJ_45" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_46",
-            "OBJ_47",
-            "OBJ_48"
-         );
-         name = "SwiftLint";
-         path = "SwiftLint";
+         isa = "PBXFileReference";
+         path = "NSRegularExpressionExtensions.swift";
          sourceTree = "<group>";
       };
       "OBJ_46" = {
          isa = "PBXFileReference";
-         path = "CurrentPathProvider.swift";
+         path = "File.swift";
          sourceTree = "<group>";
       };
       "OBJ_47" = {
          isa = "PBXFileReference";
-         path = "SwiftLint.swift";
+         path = "GitDSL.swift";
          sourceTree = "<group>";
       };
       "OBJ_48" = {
          isa = "PBXFileReference";
-         path = "SwiftLintViolation.swift";
+         path = "GitDiff.swift";
          sourceTree = "<group>";
       };
       "OBJ_49" = {
          isa = "PBXFileReference";
-         path = "Report.swift";
+         path = "GitHubDSL.swift";
          sourceTree = "<group>";
       };
       "OBJ_5" = {
@@ -2249,104 +2322,79 @@
             "OBJ_7",
             "OBJ_13",
             "OBJ_14",
-            "OBJ_87",
-            "OBJ_97",
             "OBJ_98",
-            "OBJ_99",
-            "OBJ_100",
-            "OBJ_101"
+            "OBJ_108",
+            "OBJ_109",
+            "OBJ_110",
+            "OBJ_111",
+            "OBJ_112"
          );
          path = "";
          sourceTree = "<group>";
       };
       "OBJ_50" = {
          isa = "PBXFileReference";
-         path = "Settings.swift";
+         path = "GitLabDSL.swift";
          sourceTree = "<group>";
       };
       "OBJ_51" = {
          isa = "PBXGroup";
          children = (
+            "OBJ_52"
          );
-         name = "DangerFixtures";
-         path = ".build/checkouts/swift/Sources/DangerFixtures";
-         sourceTree = "SOURCE_ROOT";
+         name = "Plugins";
+         path = "Plugins";
+         sourceTree = "<group>";
       };
       "OBJ_52" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_53"
+            "OBJ_53",
+            "OBJ_54",
+            "OBJ_55",
+            "OBJ_56"
          );
-         name = "DangerShellExecutor";
-         path = ".build/checkouts/swift/Sources/DangerShellExecutor";
-         sourceTree = "SOURCE_ROOT";
+         name = "SwiftLint";
+         path = "SwiftLint";
+         sourceTree = "<group>";
       };
       "OBJ_53" = {
          isa = "PBXFileReference";
-         path = "ShellExecutor.swift";
+         path = "CurrentPathProvider.swift";
          sourceTree = "<group>";
       };
       "OBJ_54" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "Runner";
-         path = ".build/checkouts/swift/Sources/Runner";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "SwiftLint.swift";
+         sourceTree = "<group>";
       };
       "OBJ_55" = {
-         isa = "PBXGroup";
-         children = (
-         );
-         name = "RunnerLib";
-         path = ".build/checkouts/swift/Sources/RunnerLib";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "SwiftLintViolation.swift";
+         sourceTree = "<group>";
       };
       "OBJ_56" = {
          isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/swift/Package.swift";
+         path = "SwiftlintReportDeleter.swift";
          sourceTree = "<group>";
       };
       "OBJ_57" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_58",
-            "OBJ_59"
-         );
-         name = "OctoKit 0.9.0";
-         path = ".build/checkouts/octokit.swift";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Report.swift";
+         sourceTree = "<group>";
       };
       "OBJ_58" = {
          isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/octokit.swift/Package.swift";
+         path = "Settings.swift";
          sourceTree = "<group>";
       };
       "OBJ_59" = {
          isa = "PBXGroup";
          children = (
-            "OBJ_60",
-            "OBJ_61",
-            "OBJ_62",
-            "OBJ_63",
-            "OBJ_64",
-            "OBJ_65",
-            "OBJ_66",
-            "OBJ_67",
-            "OBJ_68",
-            "OBJ_69",
-            "OBJ_70",
-            "OBJ_71",
-            "OBJ_72",
-            "OBJ_73"
          );
-         name = "OctoKit";
-         path = "OctoKit";
-         sourceTree = "<group>";
+         name = "DangerDependenciesResolver";
+         path = ".build/checkouts/swift/Sources/DangerDependenciesResolver";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_6" = {
          isa = "PBXFileReference";
@@ -2355,53 +2403,95 @@
          sourceTree = "<group>";
       };
       "OBJ_60" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "DangerFixtures";
+         path = ".build/checkouts/swift/Sources/DangerFixtures";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_61" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_62"
+         );
+         name = "DangerShellExecutor";
+         path = ".build/checkouts/swift/Sources/DangerShellExecutor";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_62" = {
+         isa = "PBXFileReference";
+         path = "ShellExecutor.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_63" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "Runner";
+         path = ".build/checkouts/swift/Sources/Runner";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_64" = {
+         isa = "PBXGroup";
+         children = (
+         );
+         name = "RunnerLib";
+         path = ".build/checkouts/swift/Sources/RunnerLib";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_65" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/swift/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_66" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_67",
+            "OBJ_87"
+         );
+         name = "OctoKit 0.10.1";
+         path = "";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_67" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_68",
+            "OBJ_69",
+            "OBJ_70",
+            "OBJ_71",
+            "OBJ_72",
+            "OBJ_73",
+            "OBJ_74",
+            "OBJ_75",
+            "OBJ_76",
+            "OBJ_77",
+            "OBJ_78",
+            "OBJ_79",
+            "OBJ_80",
+            "OBJ_81",
+            "OBJ_82",
+            "OBJ_83",
+            "OBJ_84",
+            "OBJ_85",
+            "OBJ_86"
+         );
+         name = "OctoKit";
+         path = ".build/checkouts/octokit.swift/OctoKit";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_68" = {
          isa = "PBXFileReference";
          path = "Configuration.swift";
          sourceTree = "<group>";
       };
-      "OBJ_61" = {
-         isa = "PBXFileReference";
-         path = "Follow.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_62" = {
-         isa = "PBXFileReference";
-         path = "Issue.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_63" = {
-         isa = "PBXFileReference";
-         path = "Label.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_64" = {
-         isa = "PBXFileReference";
-         path = "Milestone.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_65" = {
-         isa = "PBXFileReference";
-         path = "Octokit.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_66" = {
-         isa = "PBXFileReference";
-         path = "Parameters.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_67" = {
-         isa = "PBXFileReference";
-         path = "PublicKey.swift";
-         sourceTree = "<group>";
-      };
-      "OBJ_68" = {
-         isa = "PBXFileReference";
-         path = "PullRequest.swift";
-         sourceTree = "<group>";
-      };
       "OBJ_69" = {
          isa = "PBXFileReference";
-         path = "Repositories.swift";
+         path = "File.swift";
          sourceTree = "<group>";
       };
       "OBJ_7" = {
@@ -2416,65 +2506,52 @@
       };
       "OBJ_70" = {
          isa = "PBXFileReference";
-         path = "Stars.swift";
+         path = "Follow.swift";
          sourceTree = "<group>";
       };
       "OBJ_71" = {
          isa = "PBXFileReference";
-         path = "Time.swift";
+         path = "Gist.swift";
          sourceTree = "<group>";
       };
       "OBJ_72" = {
          isa = "PBXFileReference";
-         path = "URL+URLParameters.swift";
+         path = "Issue.swift";
          sourceTree = "<group>";
       };
       "OBJ_73" = {
          isa = "PBXFileReference";
-         path = "User.swift";
+         path = "Label.swift";
          sourceTree = "<group>";
       };
       "OBJ_74" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_75",
-            "OBJ_79"
-         );
-         name = "RequestKit 2.3.0";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Milestone.swift";
+         sourceTree = "<group>";
       };
       "OBJ_75" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_76",
-            "OBJ_77",
-            "OBJ_78"
-         );
-         name = "RequestKit";
-         path = ".build/checkouts/RequestKit/Sources/RequestKit";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Octokit.swift";
+         sourceTree = "<group>";
       };
       "OBJ_76" = {
          isa = "PBXFileReference";
-         path = "JSONPostRouter.swift";
+         path = "Parameters.swift";
          sourceTree = "<group>";
       };
       "OBJ_77" = {
          isa = "PBXFileReference";
-         path = "RequestKitSession.swift";
+         path = "PublicKey.swift";
          sourceTree = "<group>";
       };
       "OBJ_78" = {
          isa = "PBXFileReference";
-         path = "Router.swift";
+         path = "PullRequest.swift";
          sourceTree = "<group>";
       };
       "OBJ_79" = {
          isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/RequestKit/Package.swift";
+         path = "Releases.swift";
          sourceTree = "<group>";
       };
       "OBJ_8" = {
@@ -2487,104 +2564,152 @@
          sourceTree = "SOURCE_ROOT";
       };
       "OBJ_80" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_81",
-            "OBJ_82"
-         );
-         name = "ShellOut 2.2.0";
-         path = ".build/checkouts/ShellOut/Sources";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Repositories.swift";
+         sourceTree = "<group>";
       };
       "OBJ_81" = {
          isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/ShellOut/Package.swift";
+         path = "Review.swift";
          sourceTree = "<group>";
       };
       "OBJ_82" = {
          isa = "PBXFileReference";
-         path = "ShellOut.swift";
+         path = "Stars.swift";
          sourceTree = "<group>";
       };
       "OBJ_83" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_84",
-            "OBJ_86"
-         );
-         name = "Logger 0.2.3";
-         path = "";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "String+PercentEncoding.swift";
+         sourceTree = "<group>";
       };
       "OBJ_84" = {
-         isa = "PBXGroup";
-         children = (
-            "OBJ_85"
-         );
-         name = "Logger";
-         path = ".build/checkouts/Logger/Sources/Logger";
-         sourceTree = "SOURCE_ROOT";
+         isa = "PBXFileReference";
+         path = "Time.swift";
+         sourceTree = "<group>";
       };
       "OBJ_85" = {
          isa = "PBXFileReference";
-         path = "Logger.swift";
+         path = "URL+URLParameters.swift";
          sourceTree = "<group>";
       };
       "OBJ_86" = {
          isa = "PBXFileReference";
-         explicitFileType = "sourcecode.swift";
-         name = "Package.swift";
-         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/Logger/Package.swift";
+         path = "User.swift";
          sourceTree = "<group>";
       };
       "OBJ_87" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/octokit.swift/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_88" = {
          isa = "PBXGroup";
          children = (
-            "danger-swift::Danger::Product",
-            "ShellOut::ShellOut::Product",
-            "DomainDangerPlugin::DomainDangerPlugin::Product",
-            "DangerSwiftCoverage::DangerSwiftCoverage::Product",
-            "DomainDangerPlugin::DangerDependencies::Product",
-            "danger-swift::DangerShellExecutor::Product",
-            "RequestKit::RequestKit::Product",
-            "OctoKit::OctoKit::Product",
-            "Logger::Logger::Product"
+            "OBJ_89",
+            "OBJ_93"
          );
-         name = "Products";
+         name = "RequestKit 2.4.0";
          path = "";
-         sourceTree = "BUILT_PRODUCTS_DIR";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_89" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_90",
+            "OBJ_91",
+            "OBJ_92"
+         );
+         name = "RequestKit";
+         path = ".build/checkouts/RequestKit/Sources/RequestKit";
+         sourceTree = "SOURCE_ROOT";
       };
       "OBJ_9" = {
          isa = "PBXFileReference";
          path = "Fake.swift";
          sourceTree = "<group>";
       };
-      "OBJ_97" = {
+      "OBJ_90" = {
          isa = "PBXFileReference";
-         path = "Images";
+         path = "JSONPostRouter.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_91" = {
+         isa = "PBXFileReference";
+         path = "RequestKitSession.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_92" = {
+         isa = "PBXFileReference";
+         path = "Router.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_93" = {
+         isa = "PBXFileReference";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/RequestKit/Package.swift";
+         sourceTree = "<group>";
+      };
+      "OBJ_94" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_95",
+            "OBJ_97"
+         );
+         name = "Logger 0.2.3";
+         path = "";
          sourceTree = "SOURCE_ROOT";
       };
-      "OBJ_98" = {
+      "OBJ_95" = {
+         isa = "PBXGroup";
+         children = (
+            "OBJ_96"
+         );
+         name = "Logger";
+         path = ".build/checkouts/Logger/Sources/Logger";
+         sourceTree = "SOURCE_ROOT";
+      };
+      "OBJ_96" = {
          isa = "PBXFileReference";
-         path = "LICENSE";
+         path = "Logger.swift";
          sourceTree = "<group>";
       };
-      "OBJ_99" = {
+      "OBJ_97" = {
          isa = "PBXFileReference";
-         path = "README.md";
+         explicitFileType = "sourcecode.swift";
+         name = "Package.swift";
+         path = "/Users/lukedurrant/Projects-Client-Git/DomainDangerPlugin/.build/checkouts/Logger/Package.swift";
          sourceTree = "<group>";
+      };
+      "OBJ_98" = {
+         isa = "PBXGroup";
+         children = (
+            "RequestKit::RequestKit::Product",
+            "danger-swift::Danger::Product",
+            "ShellOut::ShellOut::Product",
+            "Logger::Logger::Product",
+            "DomainDangerPlugin::DomainDangerPlugin::Product",
+            "DomainDangerPlugin::DangerDependencies::Product",
+            "DangerSwiftCoverage::DangerSwiftCoverage::Product",
+            "OctoKit::OctoKit::Product",
+            "danger-swift::DangerShellExecutor::Product"
+         );
+         name = "Products";
+         path = "";
+         sourceTree = "BUILT_PRODUCTS_DIR";
       };
       "OctoKit::OctoKit" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_237";
+         buildConfigurationList = "OBJ_249";
          buildPhases = (
-            "OBJ_240",
-            "OBJ_255"
+            "OBJ_252",
+            "OBJ_272"
          );
          dependencies = (
-            "OBJ_257"
+            "OBJ_274"
          );
          name = "OctoKit";
          productName = "OctoKit";
@@ -2598,9 +2723,9 @@
       };
       "OctoKit::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_259";
+         buildConfigurationList = "OBJ_276";
          buildPhases = (
-            "OBJ_262"
+            "OBJ_279"
          );
          dependencies = (
          );
@@ -2610,10 +2735,10 @@
       };
       "RequestKit::RequestKit" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_264";
+         buildConfigurationList = "OBJ_281";
          buildPhases = (
-            "OBJ_267",
-            "OBJ_271"
+            "OBJ_284",
+            "OBJ_288"
          );
          dependencies = (
          );
@@ -2629,9 +2754,9 @@
       };
       "RequestKit::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_273";
+         buildConfigurationList = "OBJ_290";
          buildPhases = (
-            "OBJ_276"
+            "OBJ_293"
          );
          dependencies = (
          );
@@ -2641,10 +2766,10 @@
       };
       "ShellOut::ShellOut" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_278";
+         buildConfigurationList = "OBJ_295";
          buildPhases = (
-            "OBJ_281",
-            "OBJ_283"
+            "OBJ_298",
+            "OBJ_300"
          );
          dependencies = (
          );
@@ -2660,9 +2785,9 @@
       };
       "ShellOut::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_285";
+         buildConfigurationList = "OBJ_302";
          buildPhases = (
-            "OBJ_288"
+            "OBJ_305"
          );
          dependencies = (
          );
@@ -2672,16 +2797,16 @@
       };
       "danger-swift::Danger" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_103";
+         buildConfigurationList = "OBJ_114";
          buildPhases = (
-            "OBJ_106",
-            "OBJ_122"
+            "OBJ_117",
+            "OBJ_138"
          );
          dependencies = (
-            "OBJ_127",
-            "OBJ_129",
-            "OBJ_131",
-            "OBJ_133"
+            "OBJ_143",
+            "OBJ_145",
+            "OBJ_147",
+            "OBJ_149"
          );
          name = "Danger";
          productName = "Danger";
@@ -2695,10 +2820,10 @@
       };
       "danger-swift::DangerShellExecutor" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_158";
+         buildConfigurationList = "OBJ_171";
          buildPhases = (
-            "OBJ_161",
-            "OBJ_163"
+            "OBJ_174",
+            "OBJ_176"
          );
          dependencies = (
          );
@@ -2714,9 +2839,9 @@
       };
       "danger-swift::SwiftPMPackageDescription" = {
          isa = "PBXNativeTarget";
-         buildConfigurationList = "OBJ_291";
+         buildConfigurationList = "OBJ_308";
          buildPhases = (
-            "OBJ_294"
+            "OBJ_311"
          );
          dependencies = (
          );

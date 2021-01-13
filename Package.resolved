@@ -6,8 +6,8 @@
         "repositoryURL": "https://github.com/f-meloni/danger-swift-coverage",
         "state": {
           "branch": null,
-          "revision": "f8dbe265ea8d8d2936d861bff10ea280b742d237",
-          "version": "1.1.0"
+          "revision": "6a21a6e595e2b13443428942ce128b3ba6b827ee",
+          "version": "1.2.1"
         }
       },
       {
@@ -51,8 +51,8 @@
         "repositoryURL": "https://github.com/danger/swift.git",
         "state": {
           "branch": null,
-          "revision": "e5364bd91e21d5a1526ec5ac1fdd83d28743fe94",
-          "version": "3.3.0"
+          "revision": "38856f9dbaaddda454a5ce96cbbd1d6f00acaa13",
+          "version": "3.7.1"
         }
       },
       {
