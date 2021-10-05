@@ -13,9 +13,9 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(url: "https://github.com/danger/swift.git", from: "3.3.0"),
+        .package(url: "https://github.com/danger/swift.git", from: "3.11.1"),
         .package(url: "https://github.com/JohnSundell/ShellOut", from: "2.1.0"),
-        .package(url: "https://github.com/f-meloni/danger-swift-coverage", from: "1.1.0")
+        .package(url: "https://github.com/f-meloni/danger-swift-coverage", from: "1.2.0")
         // Dev dependencies
     ],
     targets: [
